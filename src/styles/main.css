@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+h3 {
+    color: white;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.h3 {
+    margin-top: -12px;
+    margin-bottom: 24px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.bg-dicoding {
+    background-color: #032541;
+}
+
+.box {
+    width: 100%;
+    border-bottom-left-radius: 16px;
+    height: 24rem;
+    background-color: #032541;
+    background-image: linear-gradient(250deg, rgba(0, 176, 232, 0.4) 0%, rgba(3, 37, 65, 0.8) 80%), url('https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=30');
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.input-group,
+.form-control,
+.btn {
+    border-radius: 12px;
+}
+
+.btn {
+    background-color: #00AEE9;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #029ccf;
+    color: white;
+}
+
+.btn:focus,
+.btn:active,
+.form-control:focus,
+.form-control:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.btn:focus,
+.btn:active,
+.form-control:focus,
+.form-control:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+#cardElement {
+    margin-bottom: 12px;
+}
+
+.card {
+    position: relative;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    box-shadow: rgb(163, 163, 163) -5px 8px 20px -4px,
+        rgb(163, 163, 163) 5px 6px 20px -4px;
+    transition: all .1s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-img-top {
+    border-radius: 8px; 
+}
+
+.card-title {
+    color: #000000;
+    font-weight: bold;
+}
+
+.card-text {
+    margin-top: -16px;
+    color: #858585;
+}
+
+.rating {
+    padding: 2px 4px;
+    left: 8px;
+    top: 8px;
+    background-color: rgba(29, 29, 29, 0.384);
+    position: absolute;
+    display: flex;
+    align-items: baseline;
+    height: 1.5em;
+    border-radius: 4px;
+}
+
+.rating-text {
+    font-size: 14px;
+    color: white;
+}
+
+footer {
+    width: 100%;
+    padding: 16px;
+    font-weight: normal;
+    color: white;
+    background-color: #21262F;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none !important;
+    visibility: hidden;
+}
+
+footer span {
+    color: red;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #00B5E7;
+}
