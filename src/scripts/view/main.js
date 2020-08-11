@@ -1,4 +1,3 @@
-require('dotenv').config();
 import '../component/dmf-app-bar.js';
 import '../component/dmf-footer.js';
 import DataSource from '../data/data-source.js';
@@ -9,7 +8,7 @@ const main = () => {
     */
     const searchElement = $('#searchElement');
     const searchButtonElement = $('#searchButtonElement');
-    const baseUrl = `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.API_KEY}&language=en-US`;
+    const baseUrl = `https://api.themoviedb.org/3/movie/popular?api_key=d7050fdc3d932b1e8295461726f73837&language=en-US`;
     const baseImageUrl = "https://image.tmdb.org/t/p/w500";
 
 
