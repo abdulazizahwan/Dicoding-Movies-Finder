@@ -1,6 +1,9 @@
+require('dot-env').config();
+
 class DataSource {
     static searchMovie(keyword) {
-        const baseUrl = "https://api.themoviedb.org/3/search/movie?api_key=d7050fdc3d932b1e8295461726f73837&language=en-US&include_adult=false&query=";
+        const apiKey= process.env.API_KEY;
+        const baseUrl = `https://api.themoviedb.org/3/search/movie?${apiKey}&language=en-US&include_adult=false&query=`;
 
 
         // Gaya jQuery AJAX
