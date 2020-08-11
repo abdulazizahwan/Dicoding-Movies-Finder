@@ -1,7 +1,6 @@
 class DataSource {
     static searchMovie(keyword) {
-        const apiKey= process.env.API_URL;
-        const baseUrl = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&language=en-US&include_adult=false&query=`;
+        const baseUrl = process.env.API_SEARCH_URL;
 
 
         // Gaya jQuery AJAX
