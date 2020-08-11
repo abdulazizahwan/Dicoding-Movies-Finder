@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 class DataSource {
     static searchMovie(keyword) {
         const apiKey= process.env.API_KEY;
