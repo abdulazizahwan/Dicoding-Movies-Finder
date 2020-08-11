@@ -8,7 +8,7 @@ const main = () => {
     */
     const searchElement = $('#searchElement');
     const searchButtonElement = $('#searchButtonElement');
-    const baseUrl = process.env.API_POPULAR_URL;
+    const baseUrl = `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.API_KEY}&language=en-US`;
     const baseImageUrl = "https://image.tmdb.org/t/p/w500";
 
 
