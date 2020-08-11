@@ -1,16 +1,11 @@
 {
   "name": "dicodingmoviesfinder",
   "version": "1.0.0",
-  "engines": {
-    "node": "12.x",
-    "npm": "6.13.x"
-  },
   "description": "Dicoding Movies Finder adalah Submission untuk kelas Fundamental Front-End Web Development",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "start-dev": "webpack-dev-server --config webpack.dev.js --open",
-    "start": "node index.js"
+    "start-dev": "webpack-dev-server --config webpack.dev.js --open"
   },
   "author": "Abdul Aziz Ahwan <abdulazizahwan97@gmail.com>",
   "license": "ISC",
@@ -29,7 +24,6 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
-    "express": "^4.17.1",
     "jquery": "^3.5.1",
     "regenerator-runtime": "^0.13.7"
   }
