@@ -1,4 +1,4 @@
-require('dot-env').config();
+require('dotenv').config();
 
 class DataSource {
     static searchMovie(keyword) {
