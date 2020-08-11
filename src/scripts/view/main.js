@@ -1,3 +1,4 @@
+require('dotenv').config();
 import '../component/dmf-app-bar.js';
 import '../component/dmf-footer.js';
 import DataSource from '../data/data-source.js';
