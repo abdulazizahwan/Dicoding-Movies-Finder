@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start-dev": "webpack-dev-server --config webpack.dev.js --open",
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "author": "Abdul Aziz Ahwan <abdulazizahwan97@gmail.com>",
   "license": "ISC",
