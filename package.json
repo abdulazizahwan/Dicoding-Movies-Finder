@@ -1,6 +1,9 @@
 {
   "name": "dicodingmoviesfinder",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
   "description": "Dicoding Movies Finder adalah Submission untuk kelas Fundamental Front-End Web Development",
   "main": "index.js",
   "scripts": {
