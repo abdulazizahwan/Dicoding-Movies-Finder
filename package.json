@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "start-dev": "webpack-dev-server --config webpack.dev.js --open"
+    "start-dev": "webpack-dev-server --config webpack.dev.js --open",
+    "start": "node app.js"
   },
   "author": "Abdul Aziz Ahwan <abdulazizahwan97@gmail.com>",
   "license": "ISC",
