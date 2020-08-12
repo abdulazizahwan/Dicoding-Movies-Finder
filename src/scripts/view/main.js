@@ -72,7 +72,7 @@ const main = () => {
             let formattedDate = `${monthNames[(rawDate.getMonth() + 1)]} ${rawDate.getDate()}, ${rawDate.getFullYear()}`;
 
             listMovieElement.innerHTML += `
-            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12" id="cardElement">
+            <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-xs-12" id="cardElement">
                     <div class="card">
                         <img src="${imageSrc}"
                                 class="card-img-top" alt="Image not found">
