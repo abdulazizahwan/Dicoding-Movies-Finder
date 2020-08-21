@@ -19,7 +19,7 @@ const main = () => {
             Mengecek jika input kosong akan menampilkan alert
             Inputan tidak boleh kosong
             */
-            if ($.trim(searchElement.val()) == '') {
+            if ($.trim(searchElement.val()) === '') {
                 alert('Input can not be left blank');
             } else {
                 const result = await DataSource.searchMovie(searchElement.val());
